@@ -50,7 +50,7 @@ jobs:
         token: ${{ secrets.GH_ACCESS_TOKEN }}
 
     - name: Setup Android SDK - for local 'act' usage only
-      uses: android-actions/setup-android@v3.2.2
+      uses: android-actions/setup-android@v4.0.4
 
     - name: Prepare for build
       id: prepare_for_build
